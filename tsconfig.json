@@ -16,6 +16,20 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@config/*": [
+        "./src/conf/*"
+      ],
+      "@entities/*": [
+        "./src/entities/*"
+      ],
+      "@diary/*": [
+        "./src/diary/*"
+      ],
+      "@user/*": [
+        "./src/user/*"
+      ]
+    }
   }
 }
